@@ -62,10 +62,10 @@ TestPerformance.java
 
 	listAccess - which type of List is better to use, and why?
 
-		Array list access works significantly better as it is o(1). Linked list time grows much quicker as it is o(n)
+		Array list access works significantly better as it is O(1). Linked list time grows much quicker as it is o(n)
 		as it has to access every node before the target.
 
 	listAddRemove - which type of List is better to use, and why?
 
-		linked list add/remove is better as it's o(1) when adding to the front or removing at the end. In an array
+		linked list add/remove is better as it's O(1) when adding to the front or removing at the end. In an array
 		It would be o(n) since the elements need to all move over.
