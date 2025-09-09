@@ -32,6 +32,9 @@ TestPerformance.java
 	State how many times the tests were executed for each SIZE (10, 100, 1000 and 10000)
 	to get the running time in milliseconds and how the test running times were recorded.
 
+	Test running times were recorded using system.nanotime in each of the performance test functions. 6 tests were
+	recorded on 10 and 100 as well as 3 tests each on 1000 and 10000.
+
 	SIZE 10
 								  #1   #2   #3   #4   #5   #6 	... (as many tests as you ran)
         testArrayListAddRemove:  26ms 29ms 27ms 27ms 26ms 29ms  ... (fill these in in ms)
